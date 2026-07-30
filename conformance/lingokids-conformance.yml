@@ -1,0 +1,58 @@
+generated: '2026-07-19'
+method: searched
+source: https://lingokids.com/privacy-policy
+scope: >-
+  Lingokids publishes no public API, so this file records the child-safety and
+  privacy compliance program the company publishes rather than API-level
+  protocol conformance. There is no OpenAPI, AsyncAPI or GraphQL surface in this
+  repo from which protocol conformance could be derived.
+standards:
+- id: kidsafe-coppa-plus
+  name: kidSAFE Seal Program (COPPA+ certification)
+  conforms: true
+  evidence: >-
+    Privacy policy states Lingokids is "audited and certified by the kidSAFE Seal
+    Program" and complies with its online security and privacy standards; the
+    homepage advertises "COPPA Plus certified".
+  url: https://lingokids.com/privacy-policy
+- id: coppa
+  name: Children's Online Privacy Protection Act (US)
+  conforms: true
+  evidence: Privacy policy documents a COPPA-compliant configuration for child data handling.
+  url: https://lingokids.com/privacy-policy
+- id: gdpr
+  name: EU General Data Protection Regulation
+  conforms: true
+  evidence: >-
+    Privacy policy documents legal bases for processing and EU data-subject
+    rights, and names a Data Protection Officer (dpo@lingokids.com).
+  url: https://lingokids.com/privacy-policy
+- id: rfc9116-security-txt
+  name: RFC 9116 security.txt
+  conforms: true
+  evidence: Valid security.txt served with Contact/Expires/Preferred-Languages from apex, api and app hosts.
+  url: https://lingokids.com/.well-known/security.txt
+- id: soc2
+  name: SOC 2
+  conforms: false
+  evidence: No trust center or SOC 2 attestation published; trust/security/compliance pages return 404.
+- id: iso27001
+  name: ISO/IEC 27001
+  conforms: false
+  evidence: No published certification found.
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  evidence: No OAuth authorization-server metadata (/.well-known/oauth-authorization-server returns 404) and no public API.
+- id: oidc
+  name: OpenID Connect
+  conforms: false
+  evidence: /.well-known/openid-configuration returns 404 on all probed hosts.
+- id: rfc9457-problem-details
+  name: RFC 9457 Problem Details
+  conforms: false
+  evidence: No public API or specification available to assess.
+- id: rfc9727-api-catalog
+  name: RFC 9727 API Catalog
+  conforms: false
+  evidence: /.well-known/api-catalog returns 404 on all probed hosts.

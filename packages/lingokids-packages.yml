@@ -1,0 +1,54 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=lingokids
+summary: >-
+  No first-party API client library or SDK exists — Lingokids publishes no public
+  API. The only packages carrying the Lingokids name on any public registry are
+  two internal front-end lint/style configuration packages published to npm by an
+  individual maintainer account, with no repository or homepage metadata to
+  confirm they are company-owned. They are recorded here as unverified and are
+  explicitly NOT SDKs, so no `SDKs` pointer is wired in apis.yml.
+registries_probed:
+- registry: npm
+  result: 2 name-matching packages (lint configs, not SDKs)
+- registry: pypi
+  result: none (https://pypi.org/pypi/lingokids/json returns 404)
+- registry: rubygems
+  result: none (empty search result)
+- registry: maven-central
+  result: none
+- registry: nuget
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none
+packages:
+- language: javascript
+  registry: npm
+  name: lingokids
+  version: 0.0.1
+  url: https://www.npmjs.com/package/lingokids
+  install: npm install lingokids
+  official: false
+  kind: lint-config
+  description: >-
+    ESLint configuration built on eslint-config-react-native-community and
+    modified to meet Lingokids's own standards.
+  note: >-
+    Published by npm user "enricsa"; no repository or homepage field, so
+    first-party ownership is unverified. Not an API client.
+- language: javascript
+  registry: npm
+  name: lingokids-code-style
+  version: 0.0.0
+  url: https://www.npmjs.com/package/lingokids-code-style
+  install: npm install lingokids-code-style
+  official: false
+  kind: lint-config
+  description: Lingokids's ESLint and Prettier shared config.
+  note: >-
+    Published by npm user "enricsa"; no repository or homepage field, so
+    first-party ownership is unverified. Not an API client.

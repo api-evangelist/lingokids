@@ -1,0 +1,28 @@
+{
+  "repo": "lingokids",
+  "feeds": [
+    {
+      "source": "https://help.lingokids.com/hc/en-us",
+      "feed_url": "https://help.lingokids.com/hc/en-us",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://lingokids.com/feed",
+      "feed_url": "https://lingokids.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://lingokids.com/news",
+      "feed_url": "https://lingokids.com/feed",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-07-25T15:00:33Z"
+}

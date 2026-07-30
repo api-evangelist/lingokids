@@ -1,0 +1,51 @@
+generated: '2026-07-19'
+method: searched
+source: https://lingokids.com/.well-known/
+host: https://lingokids.com
+hosts_probed:
+- https://lingokids.com
+- https://api.lingokids.com
+- https://app.lingokids.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  host: https://lingokids.com
+  status: 200
+  content_type: text/plain
+  file: lingokids-security.txt
+- path: /.well-known/security.txt
+  host: https://api.lingokids.com
+  status: 200
+  note: identical body to the apex host
+- path: /.well-known/security.txt
+  host: https://app.lingokids.com
+  status: 200
+  note: identical body to the apex host
+- path: /.well-known/openid-configuration  # OIDC discovery
+  host: https://lingokids.com
+  status: 404
+- path: /.well-known/openid-configuration
+  host: https://api.lingokids.com
+  status: 404
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  host: https://lingokids.com
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: https://api.lingokids.com
+  status: 404
+- path: /.well-known/api-catalog           # RFC 9727
+  host: https://lingokids.com
+  status: 404
+- path: /.well-known/api-catalog
+  host: https://api.lingokids.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: https://lingokids.com
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: https://api.lingokids.com
+  status: 404
+notes: >-
+  Lingokids serves a valid RFC 9116 security.txt from every probed host
+  (apex, api, app) with a security contact and a long-dated Expires field.
+  No OAuth/OIDC discovery, no API catalog and no AI plugin manifest are
+  published, consistent with Lingokids running no public API program.

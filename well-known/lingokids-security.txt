@@ -1,0 +1,4 @@
+Contact: mailto:security@lingokids.com
+Expires: 2036-01-10T00:00:00.000Z
+Preferred-Languages: en, es
+Hiring: https://jobs.lingokids.com
