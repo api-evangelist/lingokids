@@ -1,9 +1,28 @@
 aid: lingokids
 name: Lingokids
-description: 'Lingokids is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Lingokids is a children''s edutainment platform operated by Monkimun Inc. (Wilmington, Delaware)
+  and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free "Playlearning" experience of games, animated
+  shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and
+  web app have been downloaded more than 200 million times. The curriculum is built by parents and educators
+  and covers English-language learning alongside broader academic and life skills. Lingokids is audited and
+  certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data,
+  and honours GDPR rights for EU residents. The company publishes no public developer program or documented
+  API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does
+  publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public
+  help center. Backed by HV Capital.'
 url: https://raw.githubusercontent.com/api-evangelist/lingokids/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://lingokids.com/wp-content/uploads/2026/06/cropped-Lingokids_Facebook_Avatar-1-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +31,69 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Education
+- EdTech
+- Children
+- Language Learning
+- Mobile Apps
+- Spain
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: VulnerabilityDisclosure
+  url: security/lingokids-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/lingokids-domain-security.yml
+- type: Website
+  url: https://lingokids.com/
+- type: Support
+  url: https://help.lingokids.com/hc/en-us
+- type: Blog
+  url: https://lingokids.com/news
+- type: BlogRSS
+  url: https://lingokids.com/feed
+- type: Pricing
+  url: https://store.lingokids.com/
+- type: SignUp
+  url: https://app.lingokids.com/users/new
+- type: TermsOfService
+  url: https://lingokids.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://lingokids.com/privacy-policy
+- type: Compliance
+  url: https://lingokids.com/privacy-policy
+- type: Contact
+  url: https://lingokids.com/contact
+- type: Press
+  url: https://lingokids.com/press
+- type: Careers
+  url: https://jobs.lingokids.com/
+- type: Teachers
+  url: https://lingokids.com/teachers
+- type: GitHubOrganization
+  url: https://github.com/lingokids
+- type: WellKnown
+  url: well-known/lingokids-well-known.yml
+- type: SecurityTxt
+  url: well-known/lingokids-security.txt
+- type: Security
+  url: https://lingokids.com/.well-known/security.txt
+- type: Conformance
+  url: conformance/lingokids-conformance.yml
+- type: Packages
+  url: packages/lingokids-packages.yml
+- type: LLMsTxt
+  url: llms/lingokids-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
