@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lingokids is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Lingokids is a children's edutainment platform operated by Monkimun Inc. (Wilmington, Delaware) and Monkimun Labs S.L. (Madrid, Spain), delivering an ad-free "Playlearning" experience of games, animated shows, podcasts and sing-alongs for children aged two to eight. The mobile apps (iOS, Android, Amazon) and web app have been downloaded more than 200 million times. The curriculum is built by parents and educators and covers English-language learning alongside broader academic and life skills. Lingokids is audited and certified by the kidSAFE Seal Program (COPPA+), operates a COPPA-compliant configuration for child data, and honours GDPR rights for EU residents. The company publishes no public developer program or documented API: api.lingokids.com is the private application backend and exposes no discovery surface. Lingokids does publish an RFC 9116 security.txt with a security contact, names a Data Protection Officer, and runs a public help center. Backed by HV Capital.
 
-Backed by: hv-capital
+**Areas:** Company · Consumer · Education · EdTech · Children · Language Learning · Mobile App · Spain
+
+## Lingokids on APIs.io
+
+Everything profiled for Lingokids is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lingokids/](https://apis.io/providers/lingokids/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lingokids Domain Security](https://apis.io/security/lingokids/lingokids-domain-security/)
+- [Lingokids Vulnerability Disclosure](https://apis.io/security/lingokids/lingokids-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lingokids.com/)
+- [Pricing](https://store.lingokids.com/)
+- [Sign up](https://app.lingokids.com/users/new)
+- [Support](https://help.lingokids.com/hc/en-us)
+- [Blog](https://lingokids.com/news)
+- [Security](https://lingokids.com/.well-known/security.txt)
+- [Compliance](https://lingokids.com/privacy-policy)
+- [Terms of service](https://lingokids.com/terms-of-service)
+- [Privacy policy](https://lingokids.com/privacy-policy)
+- [GitHub](https://github.com/lingokids)
+
+## API Evangelist rating
+
+**Kin Score 22.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 52.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lingokids/](https://apis.io/providers/lingokids/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lingokids: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lingokids/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
